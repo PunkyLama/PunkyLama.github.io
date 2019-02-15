@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SiteWeb de Guillaume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="back">
+    <header>
+      <h1>Bienvenue sur le SiteWeb de Guillaume Le Roux</h1>
+    </header>
+    <div class="container">
+      <div class="box">
+        <div class="thumb">
+          <img src="img2.jpg" alt="">
+        </div>
+        <div class="details">
+          <div class="content">
+            <i class="fas fa-file-invoice"></i>
+            <h3>Mon portfolio</h3>
+            <a href="F:\siteweb\PortFolio 2.0\Portfolio\index.html">Découvrir</a>
+          </div>
+        </div>
+      </div>
+      <!--<div class="box">
+        <div class="thumb">
+          <img src="img2.jpg" alt="">
+        </div>
+        <div class="details">
+          <div class="content">
+            <i class="">fas fa-laptop-code</i>
+            <h3></h3>
+            <a href="#">oui</a>
+          </div>
+        </div>
+      </div>-->
+      <div class="box">
+        <div class="thumb">
+          <img src="img2.jpg" alt="">
+        </div>
+        <div class="details">
+          <div class="content">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Mes sites</h3>
+            <a href="#">Découvrir</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <div class="thumb">
+          <img src="img2.jpg" alt="">
+        </div>
+        <div class="details">
+          <div class="content">
+            <i class="fas fa-address-card"></i>
+            <h3>Me contacter</h3>
+            <a id="myBtn">Me contacter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content2">
+      <div class="modal-body">
+        <span class="close"></span>
+        <div class="middle">
+          <a class="btn" href="https://www.linkedin.com/in/guillaume-le-roux-775a1b157/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a class="btn" href="https://github.com/PunkyLama" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a class="btn" href="tel:+33646370255">
+            <i class="fas fa-phone"></i>
+          </a>
+          <a class="btn" href="mailto:guillaume.le.roux9529@gmail.com">
+            <i class="fas fa-at"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
